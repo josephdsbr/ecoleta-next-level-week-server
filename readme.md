@@ -21,13 +21,70 @@ To start the development follow the steps:
 
 ## Routes
 
-<div style="background: green; display: flex">
-    <div style="background: green">POST</div>
-    <b>/points</b>
-    <p>Add a point</p>
-</div> 
+##### `POST - /points - Register a point.`
 
+##### Request Parameters (*using TypeScript interface syntax*).
 
+```
+formData: {
+    name: string;
+    email: string;
+    whatsapp: string;
+    latitude: number;
+    longitude: number;
+    city: string;
+    uf: string;
+    items: string;
+    image: Image;
+}
+```
+
+##### Response Codes
+
+| Code | Description | Return |
+| ----- | ---------- | -------|
+| 200 | Success | Registered points with the ID
+| 400 | Bad Request | Error message showing the parameter errors |
+
+##### `GET - /points - Take all points registered filtered by queryParams.`
+
+##### Request Parameters (*using TypeScript interface syntax*).
+
+```
+queryParams: {
+    city: string;
+    uf: string;
+    items: string;
+}
+```
+
+##### Response Codes
+
+| Code | Description | Return |
+| ----- | ---------- | -------|
+| 200 | Success | Array with all the filtered points
+| 400 | Bad Request | Error message showing which parameters are missing | 
+
+##### `GET - /points/:id - Take a point filtered by id.`
+
+##### Response Codes
+
+| Code | Description | Return |
+| ----- | ---------- | -------|
+| 200 | Success | The point filtered by the id.
+| 400 | Bad Request | Error message showing that id is missing. |
+
+##### `GET - /items - Take all items registered.`
+
+##### Request Parameters (*using TypeScript interface syntax*).
+
+it doesn't have any params.
+
+##### Response Codes
+
+| Code | Description | Return |
+| ----- | ---------- | -------|
+| 200 | Success | Array with all the items
 
 ## Tecnologies
 
