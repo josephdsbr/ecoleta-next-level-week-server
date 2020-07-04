@@ -19,6 +19,16 @@ To start the development follow the steps:
 <p>By default when you run the knex migrate it's gonna create a Sqlite database in <code>server/src/database/database.sqlite</code>.</p>
 <p>If you wish to change to another SQL database, then you have to change the configurations to Knex in the <code>knexfile.ts</code> using the <a href="http://knexjs.org/#Installation-client">KnexJS Official Documentation</a>.</p>
 
+## Routes
+
+<div style="background: green; display: flex">
+    <div style="background: green">POST</div>
+    <b>/points</b>
+    <p>Add a point</p>
+</div> 
+
+
+
 ## Tecnologies
 
 This project is developed with the following technologies:
