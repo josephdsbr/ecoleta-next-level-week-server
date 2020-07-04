@@ -16,8 +16,8 @@ To start the development follow the steps:
 
 ## Information
 
-<p>By default when you run the knex migrate it's gonna create a Sqlite database in `server/src/database/database.sqlite`.</p>
-<p>If you wish to change to another SQL database, then you have to change the configurations to Knex in the ```knexfile.ts``` using the <a href="http://knexjs.org/#Installation-client">KnexJS Official Documentation</a>.</p>
+<p>By default when you run the knex migrate it's gonna create a Sqlite database in <code>server/src/database/database.sqlite</code>.</p>
+<p>If you wish to change to another SQL database, then you have to change the configurations to Knex in the <code>knexfile.ts</code> using the <a href="http://knexjs.org/#Installation-client">KnexJS Official Documentation</a>.</p>
 
 ## Tecnologies
 
