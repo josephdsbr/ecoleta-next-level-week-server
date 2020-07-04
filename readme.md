@@ -11,7 +11,7 @@ To start the development follow the steps:
 
 1. run ``npm install`` or ``yarn`` (if you use yarn as your package manager).
 2. run ``npm run knex:migrate`` or ``yarn knex:migrate`` to run the migrations.
-3. run ``npm run knex:seed`` or ``yarn knex:seed`` to start de seeds.
+3. run ``npm run knex:seed`` or ``yarn knex:seed`` to start the seeds.
 4. run ``npm run dev`` or ``yarn dev`` to start the development server.
 
 ## Information
