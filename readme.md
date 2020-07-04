@@ -76,10 +76,6 @@ queryParams: {
 
 ##### `GET - /items - Take all items registered.`
 
-##### Request Parameters (*using TypeScript interface syntax*).
-
-it doesn't have any params.
-
 ##### Response Codes
 
 | Code | Description | Return |
