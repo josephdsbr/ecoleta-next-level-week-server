@@ -21,7 +21,7 @@ To start the development follow the steps:
 
 ## Routes
 
-<div style="background: green; display: flex">
+<div style="background: green; display: inline">
     <div style="background: green">POST</div>
     <b>/points</b>
     <p>Add a point</p>
